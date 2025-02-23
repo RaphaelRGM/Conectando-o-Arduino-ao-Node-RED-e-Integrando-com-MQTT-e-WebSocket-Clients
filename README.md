@@ -61,7 +61,7 @@ Isso permite **comunicação eficiente e em tempo real** entre sensores, servido
    - **Porta:** `8081`
    - **Client ID:** `montecarlo-web`
    - **Clique em "Connect".**
-3. **Após conectar, clique em "Add new Topic subscription"** e insira: montecarlo/potenciometro
+3. **Após conectar, clique em "Add new Topic subscription"** e insira: `montecarlo/potenciometro`
 4. **Clique em "Subscribe".**
 
 ✅ **Agora, os dados devem aparecer no painel do Mosquitto WebSocket Client!** 🎉
@@ -75,7 +75,7 @@ Isso permite **comunicação eficiente e em tempo real** entre sensores, servido
 1. **Abra o Node-RED**.
 2. **Arraste um nó `mqtt out` para a área de trabalho**.
 3. **Clique duas vezes no nó `mqtt out` e configure:**
-- **Broker:** `SEU_CLUSTER.s1.eu.hivemq.cloud`
+- **Broker:** `broker.hivemq.com`
 - **Porta:** `8884`
 - **Client ID:** `node-red-client`
 - **Usuário e Senha:** *(Defina no HiveMQ Cloud)*
@@ -88,9 +88,9 @@ Isso permite **comunicação eficiente e em tempo real** entre sensores, servido
 
 1. **Acesse** 👉 [HiveMQ WebSocket Client](http://www.hivemq.com/demos/websocket-client/)
 2. **Configure a conexão:**
-- **Host:** `SEU_CLUSTER.s1.eu.hivemq.cloud`
+- **Host:** `broker.hivemq.com`
 - **Porta:** `8884`
 - **Client ID:** `montecarlo-web`
 - **Usuário e Senha:** *(Os mesmos usados no Node-RED)*
 - **Clique em "Connect".**
-3. **Clique em "Add new Topic subscription"** e insira:
+3. **Clique em "Add new Topic subscription"** e insira: `montecarlo/potenciometro`
