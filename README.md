@@ -76,7 +76,7 @@ Isso permite **comunicação eficiente e em tempo real** entre sensores, servido
 2. **Arraste um nó `mqtt out` para a área de trabalho**.
 3. **Clique duas vezes no nó `mqtt out` e configure:**
 - **Broker:** `SEU_CLUSTER.s1.eu.hivemq.cloud`
-- **Porta:** `8883`
+- **Porta:** `8884`
 - **Client ID:** `node-red-client`
 - **Usuário e Senha:** *(Defina no HiveMQ Cloud)*
 - **Tópico:** `montecarlo/potenciometro`
